@@ -25,3 +25,6 @@ public/content/uploads
 
 # Ignore DB dumps
 *.sql
+
+# IDE files
+.idea
