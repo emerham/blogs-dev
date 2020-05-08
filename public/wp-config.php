@@ -83,7 +83,6 @@ define( 'WP_DEBUG_DISPLAY', false );
 // ======================================
 if ( file_exists( __DIR__ . '/memcached.php' ) ) {
 	$memcached_servers = include( __DIR__ . '/memcached.php' );
-        define( 'WP_CACHE_KEY_SALT', 'dev_blogs-' );
 }
 
 // ===========================================================================================
