@@ -22,3 +22,6 @@ public/local-config.php
 
 # Ignore uploads
 public/content/uploads
+
+# Ignore DB dumps
+*.sql
