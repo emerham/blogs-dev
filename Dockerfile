@@ -6,6 +6,7 @@ RUN set -eux; \
     apt-get update && apt-get upgrade -y && apt-get install -y \
         libfreetype6-dev \
         libjpeg62-turbo-dev \
+        libldap2-dev \
         libpng-dev \
         libmagickwand-dev \
         libmemcached-dev \
@@ -20,8 +21,9 @@ RUN set -eux; \
     docker-php-ext-install -j$(nproc) \
         gd \
         exif \
-        opcache \
+        ldap \
         mysqli \
+        opcache \
         pdo_mysql \
         zip \
     ; \
