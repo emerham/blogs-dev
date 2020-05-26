@@ -2917,16 +2917,16 @@
         },
         {
             "name": "wp-cli/media-command",
-            "version": "v2.0.7",
+            "version": "v2.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/media-command.git",
-                "reference": "0b7fbee4c4aa9335b83fd5c65183808949ba1c8e"
+                "reference": "5181e5cee2f6cb43cfee6cacf3b08e8fb166b2b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/media-command/zipball/0b7fbee4c4aa9335b83fd5c65183808949ba1c8e",
-                "reference": "0b7fbee4c4aa9335b83fd5c65183808949ba1c8e",
+                "url": "https://api.github.com/repos/wp-cli/media-command/zipball/5181e5cee2f6cb43cfee6cacf3b08e8fb166b2b5",
+                "reference": "5181e5cee2f6cb43cfee6cacf3b08e8fb166b2b5",
                 "shasum": ""
             },
             "require": {
@@ -2971,7 +2971,7 @@
             ],
             "description": "Imports files as attachments, regenerates thumbnails, or lists registered image sizes.",
             "homepage": "https://github.com/wp-cli/media-command",
-            "time": "2019-11-12T11:32:15+00:00"
+            "time": "2020-05-13T16:21:49+00:00"
         },
         {
             "name": "wp-cli/mustangostang-spyc",
@@ -3828,15 +3828,15 @@
     "packages-dev": [
         {
             "name": "wpackagist-plugin/debug-bar",
-            "version": "1.0",
+            "version": "1.0.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/debug-bar/",
-                "reference": "tags/1.0"
+                "reference": "tags/1.0.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/debug-bar.1.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/debug-bar.1.0.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
