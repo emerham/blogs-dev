@@ -18,7 +18,6 @@
 		"wpackagist-plugin/authorizer": "^2.9"
 	},
 	"require-dev": {
-		"wpackagist-plugin/regenerate-thumbnails": "*@dev",
 		"wpackagist-plugin/debug-bar": "^1.0",
 		"wpackagist-plugin/kint-debugger": "^1.2",
 		"wpackagist-plugin/debug-bar-cache-lookup": "^0.1.1",
