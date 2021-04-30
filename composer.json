@@ -14,8 +14,8 @@
 		"wp-cli/wp-cli-bundle": "^2.4",
 		"wpackagist-plugin/memcached-redux": "^0.1.6",
 		"koodimonni/composer-dropin-installer": "^1.2",
-		"wpackagist-plugin/varnish-http-purge": "^4.8",
-		"wpackagist-plugin/authorizer": "^2.9"
+		"wpackagist-plugin/varnish-http-purge": "^5.0",
+		"wpackagist-plugin/authorizer": "^3.0"
 	},
 	"require-dev": {
 		"wpackagist-plugin/debug-bar": "^1.0",
