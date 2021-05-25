@@ -1,4 +1,4 @@
-FROM php:7.3-apache as production
+FROM php:7.4-apache as production
 RUN set -eux; \
     if command -v a2enmod; then \
         a2enmod rewrite; \
@@ -16,7 +16,7 @@ RUN set -eux; \
     ; \
     yes '' | pecl install memcached-3.1.5 imagick-3.4.4 \
     ; \
-    docker-php-ext-configure gd --with-png-dir=/usr --with-jpeg-dir=/usr \
+    docker-php-ext-configure gd --with-freetype --with-jpeg \
     ; \
     docker-php-ext-install -j$(nproc) \
         gd \
