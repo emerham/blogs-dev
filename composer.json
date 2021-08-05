@@ -22,7 +22,7 @@
         "koodimonni/composer-dropin-installer": "^1.2",
         "wpackagist-plugin/varnish-http-purge": "^5.0",
         "wpackagist-plugin/authorizer": "^3.0",
-        "wpackagist-theme/blankslate": "^2019.1",
+        "wpackagist-theme/blankslate": "^2021.0",
         "wpackagist-theme/koji": "^2.0",
         "osu-wams/sapling": "dev-master"
     },
