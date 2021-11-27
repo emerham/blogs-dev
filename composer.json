@@ -24,7 +24,7 @@
         "wpackagist-plugin/authorizer": "^3.0",
         "wpackagist-theme/blankslate": "^2021.0",
         "wpackagist-theme/koji": "^2.0",
-        "osu-wams/sapling": "dev-master"
+        "osu-wams/sapling": "^1.0"
     },
     "require-dev": {
         "wpackagist-plugin/debug-bar": "^1.0",

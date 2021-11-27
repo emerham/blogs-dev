@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7112e7f74e1b4d8956fa9dec76426377",
+    "content-hash": "05d7fce5f5c9e5520c713eb36b90ac00",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -475,23 +475,24 @@
         },
         {
             "name": "composer/spdx-licenses",
-            "version": "1.5.5",
+            "version": "1.5.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/spdx-licenses.git",
-                "reference": "de30328a7af8680efdc03e396aad24befd513200"
+                "reference": "a30d487169d799745ca7280bc90fdfa693536901"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/spdx-licenses/zipball/de30328a7af8680efdc03e396aad24befd513200",
-                "reference": "de30328a7af8680efdc03e396aad24befd513200",
+                "url": "https://api.github.com/repos/composer/spdx-licenses/zipball/a30d487169d799745ca7280bc90fdfa693536901",
+                "reference": "a30d487169d799745ca7280bc90fdfa693536901",
                 "shasum": ""
             },
             "require": {
                 "php": "^5.3.2 || ^7.0 || ^8.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.8.35 || ^5.7 || 6.5 - 7"
+                "phpstan/phpstan": "^0.12.55",
+                "symfony/phpunit-bridge": "^4.2 || ^5"
             },
             "type": "library",
             "extra": {
@@ -534,7 +535,7 @@
             "support": {
                 "irc": "irc://irc.freenode.org/composer",
                 "issues": "https://github.com/composer/spdx-licenses/issues",
-                "source": "https://github.com/composer/spdx-licenses/tree/1.5.5"
+                "source": "https://github.com/composer/spdx-licenses/tree/1.5.6"
             },
             "funding": [
                 {
@@ -550,7 +551,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-12-03T16:04:16+00:00"
+            "time": "2021-11-18T10:14:14+00:00"
         },
         {
             "name": "composer/xdebug-handler",
@@ -1183,7 +1184,7 @@
         },
         {
             "name": "osu-wams/sapling",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/osu-wams/sapling.git",
@@ -1195,7 +1196,6 @@
                 "reference": "96290a1d3c62e2ea25291fd01747d4a675d88c41",
                 "shasum": ""
             },
-            "default-branch": true,
             "type": "wordpress-theme",
             "license": [
                 "GPL-2.0-or-later"
@@ -1534,16 +1534,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v5.3.10",
+            "version": "v5.3.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "d4e409d9fbcfbf71af0e5a940abb7b0b4bad0bd3"
+                "reference": "3e7ab8f5905058984899b05a4648096f558bfeba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/d4e409d9fbcfbf71af0e5a940abb7b0b4bad0bd3",
-                "reference": "d4e409d9fbcfbf71af0e5a940abb7b0b4bad0bd3",
+                "url": "https://api.github.com/repos/symfony/console/zipball/3e7ab8f5905058984899b05a4648096f558bfeba",
+                "reference": "3e7ab8f5905058984899b05a4648096f558bfeba",
                 "shasum": ""
             },
             "require": {
@@ -1556,7 +1556,6 @@
                 "symfony/string": "^5.1"
             },
             "conflict": {
-                "psr/log": ">=3",
                 "symfony/dependency-injection": "<4.4",
                 "symfony/dotenv": "<5.1",
                 "symfony/event-dispatcher": "<4.4",
@@ -1613,7 +1612,7 @@
                 "terminal"
             ],
             "support": {
-                "source": "https://github.com/symfony/console/tree/v5.3.10"
+                "source": "https://github.com/symfony/console/tree/v5.3.11"
             },
             "funding": [
                 {
@@ -1629,20 +1628,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-10-26T09:30:15+00:00"
+            "time": "2021-11-21T19:41:05+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
-            "version": "v2.4.0",
+            "version": "v2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/deprecation-contracts.git",
-                "reference": "5f38c8804a9e97d23e0c8d63341088cd8a22d627"
+                "reference": "6f981ee24cf69ee7ce9736146d1c57c2780598a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/5f38c8804a9e97d23e0c8d63341088cd8a22d627",
-                "reference": "5f38c8804a9e97d23e0c8d63341088cd8a22d627",
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/6f981ee24cf69ee7ce9736146d1c57c2780598a8",
+                "reference": "6f981ee24cf69ee7ce9736146d1c57c2780598a8",
                 "shasum": ""
             },
             "require": {
@@ -1651,7 +1650,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "2.4-dev"
+                    "dev-main": "2.5-dev"
                 },
                 "thanks": {
                     "name": "symfony/contracts",
@@ -1680,7 +1679,7 @@
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/deprecation-contracts/tree/v2.4.0"
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v2.5.0"
             },
             "funding": [
                 {
@@ -1696,7 +1695,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-03-23T23:28:01+00:00"
+            "time": "2021-07-12T14:48:14+00:00"
         },
         {
             "name": "symfony/filesystem",
@@ -2311,16 +2310,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "v5.3.7",
+            "version": "v5.3.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "38f26c7d6ed535217ea393e05634cb0b244a1967"
+                "reference": "e498803a6e95ede78e9d5646ad32a2255c033a6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/38f26c7d6ed535217ea393e05634cb0b244a1967",
-                "reference": "38f26c7d6ed535217ea393e05634cb0b244a1967",
+                "url": "https://api.github.com/repos/symfony/process/zipball/e498803a6e95ede78e9d5646ad32a2255c033a6a",
+                "reference": "e498803a6e95ede78e9d5646ad32a2255c033a6a",
                 "shasum": ""
             },
             "require": {
@@ -2353,7 +2352,7 @@
             "description": "Executes commands in sub-processes",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/process/tree/v5.3.7"
+                "source": "https://github.com/symfony/process/tree/v5.3.12"
             },
             "funding": [
                 {
@@ -2369,25 +2368,29 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-08-04T21:20:46+00:00"
+            "time": "2021-11-22T22:39:13+00:00"
         },
         {
             "name": "symfony/service-contracts",
-            "version": "v2.4.0",
+            "version": "v2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/service-contracts.git",
-                "reference": "f040a30e04b57fbcc9c6cbcf4dbaa96bd318b9bb"
+                "reference": "1ab11b933cd6bc5464b08e81e2c5b07dec58b0fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/f040a30e04b57fbcc9c6cbcf4dbaa96bd318b9bb",
-                "reference": "f040a30e04b57fbcc9c6cbcf4dbaa96bd318b9bb",
+                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/1ab11b933cd6bc5464b08e81e2c5b07dec58b0fc",
+                "reference": "1ab11b933cd6bc5464b08e81e2c5b07dec58b0fc",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2.5",
-                "psr/container": "^1.1"
+                "psr/container": "^1.1",
+                "symfony/deprecation-contracts": "^2.1"
+            },
+            "conflict": {
+                "ext-psr": "<1.1|>=2"
             },
             "suggest": {
                 "symfony/service-implementation": ""
@@ -2395,7 +2398,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "2.4-dev"
+                    "dev-main": "2.5-dev"
                 },
                 "thanks": {
                     "name": "symfony/contracts",
@@ -2432,7 +2435,7 @@
                 "standards"
             ],
             "support": {
-                "source": "https://github.com/symfony/service-contracts/tree/v2.4.0"
+                "source": "https://github.com/symfony/service-contracts/tree/v2.5.0"
             },
             "funding": [
                 {
@@ -2448,7 +2451,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-04-01T10:43:52+00:00"
+            "time": "2021-11-04T16:48:04+00:00"
         },
         {
             "name": "symfony/string",
@@ -4442,12 +4445,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/wp-cli.git",
-                "reference": "f2294a4a9d03c631d7830e71c88dddc14d2e627a"
+                "reference": "2d3e5b2cd96d6c9d1228a2cf2d2e64112a1d2fa3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/wp-cli/zipball/f2294a4a9d03c631d7830e71c88dddc14d2e627a",
-                "reference": "f2294a4a9d03c631d7830e71c88dddc14d2e627a",
+                "url": "https://api.github.com/repos/wp-cli/wp-cli/zipball/2d3e5b2cd96d6c9d1228a2cf2d2e64112a1d2fa3",
+                "reference": "2d3e5b2cd96d6c9d1228a2cf2d2e64112a1d2fa3",
                 "shasum": ""
             },
             "require": {
@@ -4506,7 +4509,7 @@
                 "issues": "https://github.com/wp-cli/wp-cli/issues",
                 "source": "https://github.com/wp-cli/wp-cli"
             },
-            "time": "2021-11-11T15:26:51+00:00"
+            "time": "2021-11-23T20:32:22+00:00"
         },
         {
             "name": "wp-cli/wp-cli-bundle",
@@ -4640,7 +4643,7 @@
                 "url": "https://downloads.wordpress.org/plugin/authorizer.3.2.1.zip"
             },
             "require": {
-                "composer/installers": "~1.0 || ~2.0"
+                "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/authorizer/"
@@ -4658,7 +4661,7 @@
                 "url": "https://downloads.wordpress.org/plugin/memcached-redux.0.1.7.zip"
             },
             "require": {
-                "composer/installers": "~1.0 || ~2.0"
+                "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/memcached-redux/"
@@ -4676,7 +4679,7 @@
                 "url": "https://downloads.wordpress.org/plugin/varnish-http-purge.5.0.3.zip"
             },
             "require": {
-                "composer/installers": "~1.0 || ~2.0"
+                "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/varnish-http-purge/"
@@ -4694,7 +4697,7 @@
                 "url": "https://downloads.wordpress.org/theme/blankslate.2021.zip"
             },
             "require": {
-                "composer/installers": "~1.0 || ~2.0"
+                "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-theme",
             "homepage": "https://wordpress.org/themes/blankslate/"
@@ -4712,7 +4715,7 @@
                 "url": "https://downloads.wordpress.org/theme/koji.2.0.9.zip"
             },
             "require": {
-                "composer/installers": "~1.0 || ~2.0"
+                "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-theme",
             "homepage": "https://wordpress.org/themes/koji/"
@@ -4732,7 +4735,7 @@
                 "url": "https://downloads.wordpress.org/plugin/debug-bar.1.1.2.zip"
             },
             "require": {
-                "composer/installers": "~1.0 || ~2.0"
+                "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/debug-bar/"
@@ -4750,7 +4753,7 @@
                 "url": "https://downloads.wordpress.org/plugin/debug-bar-actions-and-filters-addon.1.5.4.zip"
             },
             "require": {
-                "composer/installers": "~1.0 || ~2.0"
+                "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/debug-bar-actions-and-filters-addon/"
@@ -4768,7 +4771,7 @@
                 "url": "https://downloads.wordpress.org/plugin/debug-bar-cache-lookup.0.1.1.zip"
             },
             "require": {
-                "composer/installers": "~1.0 || ~2.0"
+                "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/debug-bar-cache-lookup/"
@@ -4786,7 +4789,7 @@
                 "url": "https://downloads.wordpress.org/plugin/fakerpress.zip?timestamp=1610833803"
             },
             "require": {
-                "composer/installers": "~1.0 || ~2.0"
+                "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/fakerpress/"
@@ -4804,7 +4807,7 @@
                 "url": "https://downloads.wordpress.org/plugin/kint-debugger.1.2.zip"
             },
             "require": {
-                "composer/installers": "~1.0 || ~2.0"
+                "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/kint-debugger/"
@@ -4812,9 +4815,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "osu-wams/sapling": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
