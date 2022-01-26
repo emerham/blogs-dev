@@ -22,7 +22,7 @@
         "koodimonni/composer-dropin-installer": "^1.2",
         "wpackagist-plugin/varnish-http-purge": "^5.0",
         "wpackagist-plugin/authorizer": "^3.0",
-        "wpackagist-theme/blankslate": "^2021.0",
+        "wpackagist-theme/blankslate": "^2022.0",
         "wpackagist-theme/koji": "^2.0",
         "osu-wams/sapling": "^1.0"
     },
@@ -51,6 +51,13 @@
                 "package:wpackagist-plugin/memcached-redux:object-cache.php",
                 "type:wordpress-dropin"
             ]
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "johnpbloch/wordpress-core-installer": true,
+            "koodimonni/composer-dropin-installer": true
         }
     }
 }
