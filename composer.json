@@ -16,13 +16,13 @@
         }
     ],
     "require": {
-        "johnpbloch/wordpress": "~5.2",
+        "johnpbloch/wordpress": "^6.1",
         "wp-cli/wp-cli-bundle": "^2.4",
         "wpackagist-plugin/memcached-redux": "^0.1.6",
         "koodimonni/composer-dropin-installer": "^1.2",
         "wpackagist-plugin/varnish-http-purge": "^5.0",
         "wpackagist-plugin/authorizer": "^3.0",
-        "wpackagist-theme/blankslate": "^2022.0",
+        "wpackagist-theme/blankslate": "^2023.0",
         "wpackagist-theme/koji": "^2.0",
         "osu-wams/sapling": "^1.0"
     },
