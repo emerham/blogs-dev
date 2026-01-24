@@ -1,4 +1,4 @@
-FROM php:8.1-apache as production
+FROM php:8.5.2-apache as production
 RUN set -eux; \
     if command -v a2enmod; then \
         a2enmod rewrite; \
